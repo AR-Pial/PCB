@@ -1,0 +1,207 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    /* font-family: 'Handlee', cursive; */
+    font-family: 'Montserrat', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+h1,h2,h3,h4,h5,h6{
+   font-family: 'Roboto', sans-serif;
+   
+}
+
+
+
+/* header starts here */
+
+.header3{
+background-color: #224230;
+
+
+
+}
+
+
+.nav-link{
+    color: white!important;
+    margin: 0 10px;
+   
+}
+.navbarHr{
+    border: 1px solid;
+}
+
+
+
+
+/* header ends here */
+
+/* main strats */
+main{
+    background-color: #F2F4F8;
+    margin-bottom: 0;
+  }
+  .background{
+    background-color: #F2F4F8;
+  }
+
+  .card img{
+      height:200px;
+  }
+ 
+
+  .card h5{
+      height: 50px;
+      padding: 2px;
+  }
+
+  .card p{
+    height: 60px;
+    padding: 2px;
+    font-size: .9rem;
+  }
+
+  .newsSection{
+      height: 82vh;
+      
+  }
+
+  .news{
+    height: 65vh;
+    overflow: auto;
+  }
+
+  .newsHeader{
+      background-color: #5eaaa8;
+      color: white;
+  }
+
+  .news .card{
+    background-color: #cbcbcb;
+    height: 30vh;
+  }
+
+  .contactSection{
+      background-color: #5eaaa8;
+  }
+
+  /* footer strats here */
+
+  .footer1{
+      background-color: #2E363E;
+  }
+
+ .footer1 ul li{
+    list-style-type: none !important;
+    margin: 3px 0;
+    
+  }
+
+  .footer1 ul li a{
+    font-size: .8rem;
+    font-weight:50;
+    color: white;
+  }
+
+  .footer1 i{
+      font-size: larger;
+  }
+  .footer2{
+      background-color: #081621;
+  }
+
+  /* footer ends here */
+
+  
+  
+ 
+
+/* main ends */
+
+/* media */
+@media only screen and (min-width: 1200px) {
+
+    .dropdown:hover .dropdown-menu {
+        display: block;
+     }
+     .carousel .w-100 {
+        width: 100% !important;
+        height: 75vh;
+      }
+}
+
+@media  screen and (max-width: 1200px) and (min-width: 768px)  {
+
+
+    .dropdown:hover .dropdown-menu {
+        display: block;
+     }
+    .header3 li{
+        font-size: .8rem;
+    }
+    .carousel .w-100 {
+        width: 100% !important;
+        height: 60vh;
+      }
+    
+    .header2 h1{
+        font-size: 1.6rem;
+    }
+}
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .header1{
+        justify-content: space-around;
+    }
+
+    .headerName{
+        margin: 0 auto;
+        font-size: 1rem;
+        font-weight: bolder;
+    }
+    
+    
+
+    .headerLogo{
+        width:55px;
+        height: auto;
+    }
+
+    .carousel .w-100 {
+        width: 100% !important;
+        height: 50vh;
+      }
+    
+      .card img{
+        height:150px;
+    }
+
+    footer img{
+        width:65px;
+        height: 55px;
+        
+    }
+    .newsSection .card p{
+        
+        font-size: .8rem;
+        padding-bottom: 0;
+    }
+
+    
+   
+   
+}
+/* media */
+
